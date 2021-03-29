@@ -204,5 +204,5 @@
         }
     },
     "additionalProperties": false,
-    "required" : [ "title", "types", "creators", "licenses", "description", "keywords", "version", "distributions" ]
+    "required" : [ "title", "types", "creators", "licenses", "description", "keywords", "version", "distributions", "privacy" ]
 }

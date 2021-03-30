@@ -93,7 +93,7 @@
         },
         "privacy": {
             "description": "A qualifier to describe the data protection applied to the dataset. This is relevant for clinical data.",
-            "type": "string"
+            "type": "string", "enum": ["open", "controlled", "registered", "private"]
         },
         "distributions" : {
             "description": "The distribution(s) by which datasets are made available (for example: mySQL dump).",
